@@ -1,0 +1,65 @@
+.footer {
+    background-color: $footer-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .logo-footer {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .footer-box {
+    width: 270px;
+  
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+  .address {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.714;
+    color: $primery-white-color;
+  }
+  
+  .address a {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  /* Стили соцсетей */
+  
+  .join {
+    margin-top: 0;
+    margin-bottom: 20px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-transform: uppercase;
+    color: $primery-white-color;
+  }
+  
+  .join-list {
+    display: flex;
+  }
+  
+  .join-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .join-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  
+  .join-link .icon {
+    fill: $primery-white-color;
+  }
+  
