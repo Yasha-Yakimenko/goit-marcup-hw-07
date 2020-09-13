@@ -1,0 +1,52 @@
+.sign-up {
+    width: 570px;
+  }
+  
+  .form {
+    display: flex;
+  }
+  
+  .email-input {
+    display: block;
+  }
+  
+  .form-field {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    margin: 0;
+    margin-right: 12px;
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+    background-color: transparent;
+    color: $primery-white-color;
+  
+    &::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25;
+  
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  .button-footer {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  
+  .button-name {
+    display: block;
+    margin-right: 10px;
+  }
+  
+  .send-icon {
+    display: inline-block;
+  }
+  

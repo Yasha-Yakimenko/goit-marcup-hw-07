@@ -3,7 +3,7 @@
   font-family: "raleway";
   font-style: normal;
   font-weight: 700;
-  src: local(" "), url("../css/fonts/ralevay/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../css/fonts/ralevay/raleway-v17-latin_cyrillic-700.woff") format("woff");
+  src: local(" "), url("../fonts/raleway/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway/raleway-v17-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
